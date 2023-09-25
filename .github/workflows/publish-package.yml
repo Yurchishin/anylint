@@ -1,12 +1,10 @@
-name: Publish package
-
 on:
   workflow_dispatch:
     branches:
       - master
     inputs:
       package:
-        description: 'Package name'
+        description: Package name
         required: true
         type: choice
         options:
@@ -14,13 +12,15 @@ on:
           - eslint-config
           - prettier-config
       increment:
-        description: 'Increment version type'
+        description: Increment version type
         default: patch
         type: choice
         options:
           - patch
           - minor
           - major
+
+name: Publish ${{inputs.package}} package
 
 jobs:
   install:

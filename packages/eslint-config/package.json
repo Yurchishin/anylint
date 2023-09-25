@@ -11,7 +11,17 @@
   },
   "keywords": [
     "eslint",
-    "eslint-config"
+    "eslint-config",
+    "javascript",
+    "typescript",
+    "react",
+    "react-web",
+    "react-native",
+    "testing-library",
+    "testing-library-react",
+    "jest",
+    "jest-web",
+    "jest-native"
   ],
   "engines": {
     "node": ">=16.0.0"
@@ -24,10 +34,10 @@
   "exports": {
     "./javascript": "./src/javascript.cjs",
     "./typescript": "./src/typescript.cjs",
+    "./tests": "./src/tests.cjs",
     "./jest": "./src/jest.cjs",
     "./jest-native": "./src/jest-native.cjs",
     "./jest-web": "./src/jest-web.cjs",
-    "./react": "./src/react.cjs",
     "./react-native": "./src/react-native.cjs",
     "./react-web": "./src/react-web.cjs",
     "./testing-library-react": "./src/testing-library-react.cjs"

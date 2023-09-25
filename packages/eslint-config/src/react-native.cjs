@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['./react.cjs', './shared/react-native.cjs', './shared/prettier.cjs'],
+  extends: ['./shared/react.cjs', './shared/react-native.cjs', './shared/prettier.cjs'],
 }

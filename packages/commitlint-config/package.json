@@ -42,6 +42,9 @@
     "glob": "10.3.6",
     "read-pkg-up": "7.0.1"
   },
+  "peerDependencies": {
+    "@commitlint/cli": ">=17.6.5"
+  },
   "publishConfig": {
     "access": "public",
     "@anylint:registry": "https://registry.npmjs.org"
