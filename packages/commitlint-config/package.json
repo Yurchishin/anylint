@@ -4,7 +4,7 @@
   "version": "1.0.2",
   "license": "MIT",
   "author": "Yurii Rybak",
-  "description": "Shareable commitlint config enforcing conventional commit with workspace scopes support",
+  "description": "Shareable Commitlint config enforcing conventional commit with workspace scopes support",
   "homepage": "https://github.com/Yurchishin/anylint/tree/master/packages/commitlint-config",
   "repository": {
     "type": "git",
