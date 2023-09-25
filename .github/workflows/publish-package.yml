@@ -20,11 +20,11 @@ on:
           - minor
           - major
 
-name: Publish ${{inputs.package}} package
+name: Publish package
 
 jobs:
   install:
-    name: Publish package
+    name: Publish ${{inputs.package}} package
     runs-on: macos-latest
     permissions:
       packages: write
