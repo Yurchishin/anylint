@@ -1,16 +1,10 @@
+name: Publish packages
+
 on:
   workflow_dispatch:
     branches:
       - master
     inputs:
-      package:
-        description: Package name
-        required: true
-        type: choice
-        options:
-          - commitlint-config
-          - eslint-config
-          - prettier-config
       increment:
         description: Increment version type
         default: patch
@@ -19,12 +13,22 @@ on:
           - patch
           - minor
           - major
-
-name: Publish package
+      commitlint-config:
+        description: Publish commitlint-config
+        type: boolean
+        default: true
+      eslint-config:
+        description: Publish eslint-config
+        type: boolean
+        default: true
+      prettier-config:
+        description: Publish prettier-config
+        type: boolean
+        default: true
 
 jobs:
   publish:
-    name: Publish ${{inputs.package}} package (${{inputs.increment}})
+    name: Publish packages (${{inputs.increment}})
     runs-on: macos-latest
     permissions:
       contents: write
@@ -55,8 +59,25 @@ jobs:
         name: Lint code
 
       - run: bun run release --increment ${{inputs.increment}}
-        name: Publish ${{inputs.increment}} release
-        working-directory: packages/${{inputs.package}}
+        if: ${{inputs.commitlint-config}} == true
+        name: Publish commitlint-config release
+        working-directory: packages/commitlint-config
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+
+      - run: bun run release --increment ${{inputs.increment}}
+        if: ${{inputs.eslint-config}} == true
+        name: Publish eslint-config release
+        working-directory: packages/eslint-config
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+
+      - run: bun run release --increment ${{inputs.increment}}
+        if: ${{inputs.prettier-config}} == true
+        name: Publish prettier-config release
+        working-directory: packages/prettier-config
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
