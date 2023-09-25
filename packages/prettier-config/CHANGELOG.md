@@ -1,3 +1,5 @@
+## [1.0.1](https://github.com/Yurchishin/anylint/compare/prettier-config-v1.0.0...prettier-config-v1.0.1) (2023-09-25)
+
 ## [1.0.0](https://github.com/Yurchishin/anylint/compare/prettier-config-v0.3.1...prettier-config-v1.0.0) (2023-09-25)
 
 ## 0.3.0 (2023-09-25)
