@@ -1,7 +1,7 @@
 {
   "name": "@anylint/commitlint-config",
   "private": false,
-  "version": "0.4.0",
+  "version": "0.4.1",
   "license": "MIT",
   "author": "Yurii Rybak",
   "description": "Shareable commitlint config enforcing conventional commit with workspace scopes support",
