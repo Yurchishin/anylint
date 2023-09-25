@@ -13,15 +13,15 @@ on:
           - patch
           - minor
           - major
-      commitlint-config:
+      commitlintConfig:
         description: Publish commitlint-config
         type: boolean
         default: true
-      eslint-config:
+      eslintConfig:
         description: Publish eslint-config
         type: boolean
         default: true
-      prettier-config:
+      prettierConfig:
         description: Publish prettier-config
         type: boolean
         default: true
@@ -59,7 +59,7 @@ jobs:
         name: Lint code
 
       - run: bun run release --increment ${{inputs.increment}}
-        if: ${{inputs.commitlint-config}} == true
+        if: inputs.commitlintConfig == true
         name: Publish commitlint-config release
         working-directory: packages/commitlint-config
         env:
@@ -67,7 +67,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
       - run: bun run release --increment ${{inputs.increment}}
-        if: ${{inputs.eslint-config}} == true
+        if: inputs.eslintConfig == true
         name: Publish eslint-config release
         working-directory: packages/eslint-config
         env:
@@ -75,7 +75,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
       - run: bun run release --increment ${{inputs.increment}}
-        if: ${{inputs.prettier-config}} == true
+        if: inputs.prettierConfig == true
         name: Publish prettier-config release
         working-directory: packages/prettier-config
         env:
