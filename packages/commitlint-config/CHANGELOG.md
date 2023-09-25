@@ -1,3 +1,9 @@
+## [1.0.4](https://github.com/Yurchishin/anylint/compare/commitlint-config-v1.0.3...commitlint-config-v1.0.4) (2023-09-25)
+
+### Bug Fixes
+
+- **commitlint-config:** removed unused npm dependencies ([f236cbd](https://github.com/Yurchishin/anylint/commit/f236cbd8ff52f86d6dfd0302803cc6c07e601bd7))
+
 ## [1.0.3](https://github.com/Yurchishin/anylint/compare/commitlint-config-v1.0.2...commitlint-config-v1.0.3) (2023-09-25)
 
 ### Bug Fixes
