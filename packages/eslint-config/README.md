@@ -1,12 +1,12 @@
-<img src="https://res.cloudinary.com/da0ggymug/image/upload/v1695653317/logo_full.25.svg">
+![AnyLint Logo](https://res.cloudinary.com/da0ggymug/image/upload/v1695653317/logo_full.25.svg)
 
 # @anylint/eslint-config
 
-`@anylint/eslint-config` is a comprehensive [ESLint](https://eslint.org) configuration package for JavaScript and TypeScript projects. It provides a set of predefined ESLint rules and settings to help you maintain consistent code quality and style across your codebase.
+**@anylint/eslint-config** is a versatile [ESLint](https://eslint.org) configuration package designed for JavaScript and TypeScript projects. It streamlines your development process by offering predefined ESLint rules and settings to maintain code quality and style consistency throughout your codebase.
 
 ## Installation
 
-**Install**:
+**Install the package**:
 
 ```bash
 $ npm install @anylint/eslint-config eslint --save-dev

@@ -1,21 +1,21 @@
-<img src="https://res.cloudinary.com/da0ggymug/image/upload/v1695653317/logo_full.25.svg">
+![AnyLint Logo](https://res.cloudinary.com/da0ggymug/image/upload/v1695653317/logo_full.25.svg)
 
 # @anylint/commitlint-config
 
-`@anylint/commitlint-config` is a configuration package for [Commitlint](https://commitlint.js.org/) that helps you enforce consistent and conventional commit messages in your projects. By using this configuration, you can ensure that your commit messages follow a standardized format, making it easier to track and manage changes in your codebase.
+**@anylint/commitlint-config** is a configuration package for [Commitlint](https://commitlint.js.org/) designed to enforce consistent and conventional commit messages within your projects. This standardization makes it easier to track and manage changes in your codebase.
 
 ## Features 🚀
 
-- **Conventional Commit Messages** : Encourages the use of conventional commit message formats, such as [Conventional Commits](https://www.conventionalcommits.org/), for improved codebase manageability.
+- **Conventional Commit Messages**: Promotes the use of conventional commit message formats, such as [Conventional Commits](https://www.conventionalcommits.org/), to enhance codebase manageability.
 
-- **Workspace Scopes** : Provides support for monorepo setups by allowing you to specify workspace scopes in commit messages.
+- **Workspace Scopes**: Offers support for monorepo setups by enabling you to specify workspace scopes in commit messages.
 
 ## Installation
 
-**Install**:
+To install, run the following command:
 
 ```bash
-$ npm install @anylint/commitlint-config @commitlint/cli --save-dev
+npm install @anylint/commitlint-config @commitlint/cli --save-dev
 ```
 
 ## Prompts
