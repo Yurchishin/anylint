@@ -2,7 +2,7 @@
 
 # @anylint/eslint-config
 
-`@anylint/eslint-config` is a comprehensive [ESLint](https://eslint.org)  configuration package for JavaScript and TypeScript projects. It provides a set of predefined ESLint rules and settings to help you maintain consistent code quality and style across your codebase.
+`@anylint/eslint-config` is a comprehensive [ESLint](https://eslint.org) configuration package for JavaScript and TypeScript projects. It provides a set of predefined ESLint rules and settings to help you maintain consistent code quality and style across your codebase.
 
 ## Installation
 
@@ -24,7 +24,7 @@ $ npm install @anylint/eslint-config eslint --save-dev
       "files": ["*.js"],
       "extends": ["@anylint/eslint-config/javascript"],
       "rules": {}
-    },
+    }
   ]
 }
 ```
@@ -47,7 +47,7 @@ $ npm install typescript --save-dev
       "files": ["*.ts"],
       "extends": ["@anylint/eslint-config/typescript"],
       "rules": {}
-    },
+    }
   ]
 }
 ```
@@ -71,7 +71,8 @@ Edit `.eslintrc.json`:
       "files": ["*.jsx"],
       "extends": ["@anylint/eslint-config/react-web"],
       "rules": {}
-    },,
+    },
+    ,
   ]
 }
 ```
@@ -88,10 +89,10 @@ Edit `.eslintrc.json`:
       "rules": {}
     },
     {
-    "files": ["*.jsx"],
+      "files": ["*.jsx"],
       "extends": ["@anylint/eslint-config/react-web"],
       "rules": {}
-    },
+    }
   ]
 }
 ```
@@ -109,9 +110,9 @@ Edit `.eslintrc.json`:
     },
     {
       "files": ["*.jsx"],
-        "extends": ["@anylint/eslint-config/react-native"],
-        "rules": {}
-    },
+      "extends": ["@anylint/eslint-config/react-native"],
+      "rules": {}
+    }
   ]
 }
 ```
@@ -131,7 +132,7 @@ Edit `.eslintrc.json`:
       "files": ["*.tsx"],
       "extends": ["@anylint/eslint-config/react-native"],
       "rules": {}
-    },
+    }
   ]
 }
 ```
@@ -148,13 +149,9 @@ Edit `.eslintrc.json`:
   "overrides": [
     {
       "files": ["*.test.js", "*.spec.js"],
-      "extends": [
-        "@anylint/eslint-config/javascript",
-        "@anylint/eslint-config/jest",
-        "@anylint/eslint-config/tests",
-      ],
+      "extends": ["@anylint/eslint-config/javascript", "@anylint/eslint-config/jest", "@anylint/eslint-config/tests"],
       "rules": {}
-    },
+    }
   ]
 }
 ```
@@ -167,13 +164,9 @@ Edit `.eslintrc.json`:
   "overrides": [
     {
       "files": ["*.test.ts", "*.spec.ts"],
-      "extends": [
-        "@anylint/eslint-config/typescript",
-        "@anylint/eslint-config/jest",
-        "@anylint/eslint-config/tests",
-      ],
+      "extends": ["@anylint/eslint-config/typescript", "@anylint/eslint-config/jest", "@anylint/eslint-config/tests"],
       "rules": {}
-    },
+    }
   ]
 }
 ```
@@ -186,11 +179,7 @@ Edit `.eslintrc.json`:
   "overrides": [
     {
       "files": ["*.test.js", "*.spec.js"],
-      "extends": [
-        "@anylint/eslint-config/javascript",
-        "@anylint/eslint-config/jest",
-        "@anylint/eslint-config/tests",
-      ],
+      "extends": ["@anylint/eslint-config/javascript", "@anylint/eslint-config/jest", "@anylint/eslint-config/tests"],
       "rules": {}
     },
     {
@@ -203,7 +192,7 @@ Edit `.eslintrc.json`:
         "@anylint/eslint-config/tests"
       ],
       "rules": {}
-    },
+    }
   ]
 }
 ```
@@ -216,11 +205,7 @@ Edit `.eslintrc.json`:
   "overrides": [
     {
       "files": ["*.test.js", "*.spec.js"],
-      "extends": [
-        "@anylint/eslint-config/typescript",
-        "@anylint/eslint-config/jest",
-        "@anylint/eslint-config/tests",
-      ],
+      "extends": ["@anylint/eslint-config/typescript", "@anylint/eslint-config/jest", "@anylint/eslint-config/tests"],
       "rules": {}
     },
     {
@@ -233,7 +218,7 @@ Edit `.eslintrc.json`:
         "@anylint/eslint-config/tests"
       ],
       "rules": {}
-    },
+    }
   ]
 }
 ```
@@ -246,11 +231,7 @@ Edit `.eslintrc.json`:
   "overrides": [
     {
       "files": ["*.test.js", "*.spec.js"],
-      "extends": [
-        "@anylint/eslint-config/javascript",
-        "@anylint/eslint-config/jest",
-        "@anylint/eslint-config/tests",
-      ],
+      "extends": ["@anylint/eslint-config/javascript", "@anylint/eslint-config/jest", "@anylint/eslint-config/tests"],
       "rules": {}
     },
     {
@@ -263,7 +244,7 @@ Edit `.eslintrc.json`:
         "@anylint/eslint-config/tests"
       ],
       "rules": {}
-    },
+    }
   ]
 }
 ```
@@ -276,11 +257,7 @@ Edit `.eslintrc.json`:
   "overrides": [
     {
       "files": ["*.test.ts", "*.spec.ts"],
-      "extends": [
-        "@anylint/eslint-config/typescript",
-        "@anylint/eslint-config/jest",
-        "@anylint/eslint-config/tests",
-      ],
+      "extends": ["@anylint/eslint-config/typescript", "@anylint/eslint-config/jest", "@anylint/eslint-config/tests"],
       "rules": {}
     },
     {
@@ -293,8 +270,7 @@ Edit `.eslintrc.json`:
         "@anylint/eslint-config/tests"
       ],
       "rules": {}
-    },
+    }
   ]
 }
 ```
-

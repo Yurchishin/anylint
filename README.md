@@ -5,6 +5,7 @@
 This repository contains configuration packages to simplify and standardize code quality setups for various JavaScript and TypeScript projects.
 
 ## Features 🚀
+
 - **Easy to use** ✨: Just install the package, add a couple of lines, and you're good to go.
 - **Standardized** 📋: All packages follow the same structure and naming conventions.
 - **Flexible** 🧩: You can use the packages as-is or extend them to fit your needs.
@@ -17,12 +18,10 @@ This repository contains configuration packages to simplify and standardize code
 
 ## Packages 📦
 
-| Package                                                        | Description |
-|----------------------------------------------------------------| --- |
-| [`@anylint/eslint-config`](./packages/eslint-config)           | ESLint configuration for JavaScript and TypeScript projects. |
-| [`@anylint/prettier-config`](./packages/prettier-config)       | Prettier configuration for JavaScript and TypeScript projects. |
-| [`@anylint/commitlint-config`](./packages/commitlint-config)   | Commitlint configuration with conventional preset and monorepo support. |
+| Package                                                      | Description                                                             |
+| ------------------------------------------------------------ | ----------------------------------------------------------------------- |
+| [`@anylint/eslint-config`](./packages/eslint-config)         | ESLint configuration for JavaScript and TypeScript projects.            |
+| [`@anylint/prettier-config`](./packages/prettier-config)     | Prettier configuration for JavaScript and TypeScript projects.          |
+| [`@anylint/commitlint-config`](./packages/commitlint-config) | Commitlint configuration with conventional preset and monorepo support. |
 
-
-**NOTE**: The documentation was created with the help of AI and project  was created for personal use 😅
-
+**NOTE**: The documentation was created with the help of AI and project was created for personal use 😅

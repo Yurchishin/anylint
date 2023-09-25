@@ -14,4 +14,3 @@
 3. Add your changes
 4. Run `bun run commit` to commit your changes
 5. Push your changes to the remote repository and create a pull request ✨
-

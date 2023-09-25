@@ -22,10 +22,6 @@ module.exports = {
           section: 'Performance Improvements',
         },
         {
-          type: 'refactor',
-          section: 'Code Refactoring',
-        },
-        {
           type: 'docs',
           section: 'Documentation',
         },

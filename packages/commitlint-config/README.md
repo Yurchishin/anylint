@@ -54,7 +54,7 @@ module.exports = {
   rules: {
     // Add additional rules here.
   },
-};
+}
 ```
 
 ### Monorepo Repository
@@ -63,10 +63,7 @@ module.exports = {
 
 ```javascript
 module.exports = {
-  extends: [
-    '@anylint/commitlint-config',
-    '@anylint/commitlint-config/workspace-scopes',
-  ],
+  extends: ['@anylint/commitlint-config', '@anylint/commitlint-config/workspace-scopes'],
   rules: {
     // Add additional rules here.
   },
@@ -92,4 +89,3 @@ Additionally, you can use `workspace` as a scope to indicate that your commit me
 ```bash
 $ git commit -m "feat(workspace): add new feature for all packages"
 ```
-
