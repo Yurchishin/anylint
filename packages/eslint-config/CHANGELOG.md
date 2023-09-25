@@ -1,3 +1,5 @@
+## [1.0.3](https://github.com/Yurchishin/anylint/compare/eslint-config-v1.0.2...eslint-config-v1.0.3) (2023-09-25)
+
 ## [1.0.2](https://github.com/Yurchishin/anylint/compare/eslint-config-v0.4.2...eslint-config-v1.0.2) (2023-09-25)
 
 ## [0.4.2](https://github.com/Yurchishin/anylint/compare/eslint-config-v0.4.1...eslint-config-v0.4.2) (2023-09-25)
