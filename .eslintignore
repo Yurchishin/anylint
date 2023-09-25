@@ -1,0 +1,2 @@
+# Add files here to ignore them from eslint checks
+node_modules

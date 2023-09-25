@@ -1,0 +1,34 @@
+{
+  "name": "@anylint/prettier-config",
+  "private": false,
+  "version": "0.3.0",
+  "license": "MIT",
+  "author": "Yurii Rybak",
+  "homepage": "https://github.com/Yurchishin/anylint/tree/master/packages/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yurchishin/anylint.git"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "src",
+    "LICENSE"
+  ],
+  "main": "src/index.json",
+  "scripts": {
+    "release": "release-it --ci --config ../../.release-it.js"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "@anylint:registry": "https://registry.npmjs.org"
+  }
+}

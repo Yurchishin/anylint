@@ -1,0 +1,49 @@
+{
+  "name": "@anylint/commitlint-config",
+  "private": false,
+  "version": "0.3.0",
+  "license": "MIT",
+  "author": "Yurii Rybak",
+  "homepage": "https://github.com/Yurchishin/anylint/tree/master/packages/commitlint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yurchishin/anylint.git"
+  },
+  "keywords": [
+    "commitlint",
+    "commitlint-config",
+    "commitlint-config-conventional",
+    "commit-conventional",
+    "config-conventional",
+    "conventional",
+    "conventional-changelog"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "src",
+    "LICENSE"
+  ],
+  "type": "commonjs",
+  "main": "src/index.cjs",
+  "exports": {
+    ".": "./src/index.cjs",
+    "./workspace-scopes": "./src/workspace-scopes.cjs"
+  },
+  "scripts": {
+    "release": "release-it --ci --config ../../.release-it.js"
+  },
+  "dependencies": {
+    "@commitlint/cli": "17.6.5",
+    "@commitlint/config-conventional": "17.6.5",
+    "@commitlint/prompt-cli": "17.6.5",
+    "find-yarn-workspace-root": "2.0.0",
+    "glob": "10.3.6",
+    "read-pkg-up": "7.0.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "@anylint:registry": "https://registry.npmjs.org"
+  }
+}

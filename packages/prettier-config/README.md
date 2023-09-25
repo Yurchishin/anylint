@@ -1,0 +1,1 @@
+# @anylint/prettier-config

@@ -1,0 +1,70 @@
+{
+  "name": "@anylint/eslint-config",
+  "private": false,
+  "version": "0.3.0",
+  "license": "MIT",
+  "author": "Yurii Rybak",
+  "homepage": "https://github.com/Yurchishin/anylint/tree/master/packages/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yurchishin/anylint.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "src",
+    "LICENSE"
+  ],
+  "type": "commonjs",
+  "exports": {
+    "./javascript": "./src/javascript.cjs",
+    "./typescript": "./src/typescript.cjs",
+    "./jest": "./src/jest.cjs",
+    "./jest-native": "./src/jest-native.cjs",
+    "./jest-web": "./src/jest-web.cjs",
+    "./react": "./src/react.cjs",
+    "./react-native": "./src/react-native.cjs",
+    "./react-web": "./src/react-web.cjs",
+    "./testing-library-react": "./src/testing-library-react.cjs"
+  },
+  "scripts": {
+    "release": "release-it --ci --config ../../.release-it.js"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "6.7.2",
+    "@typescript-eslint/parser": "6.7.2",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-config-unicorn": "0.5.0",
+    "eslint-import-resolver-typescript": "3.6.1",
+    "eslint-plugin-import": "2.28.1",
+    "eslint-plugin-jest": "27.4.0",
+    "eslint-plugin-jest-dom": "5.1.0",
+    "eslint-plugin-jsdoc": "46.8.2",
+    "eslint-plugin-promise": "6.1.1",
+    "eslint-plugin-react": "7.33.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-react-native": "4.1.0",
+    "eslint-plugin-regexp": "1.15.0",
+    "eslint-plugin-security": "1.7.1",
+    "eslint-plugin-testing-library": "6.0.1",
+    "eslint-plugin-unicorn": "48.0.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0",
+    "typescript": ">=5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "@anylint:registry": "https://registry.npmjs.org"
+  }
+}

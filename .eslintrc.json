@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "overrides": [
+    {
+      "files": ["*.ts", "*.d.ts"],
+      "extends": ["@anylint/eslint-config/typescript"],
+      "rules": {}
+    },
+    {
+      "files": ["*.js", "*.cjs", "*.mjs"],
+      "extends": ["@anylint/eslint-config/javascript"],
+      "rules": {}
+    },
+    {
+      "files": ["*.cjs"],
+      "env": {
+        "commonjs": true,
+        "node": true
+      },
+      "rules": {}
+    },
+    {
+      "files": ["src/**/*.{ts,js,cjs,mjs}"],
+      "rules": {
+        "import/no-extraneous-dependencies": "off"
+      }
+    }
+  ]
+}
