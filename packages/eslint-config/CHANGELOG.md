@@ -1,3 +1,9 @@
+## [1.0.4](https://github.com/Yurchishin/anylint/compare/eslint-config-v1.0.3...eslint-config-v1.0.4) (2023-09-25)
+
+### Bug Fixes
+
+- **eslint-config:** fixed naming and sorting rule configs ([012289c](https://github.com/Yurchishin/anylint/commit/012289c25052563f448e4aa91b593776c38f1661))
+
 ## [1.0.3](https://github.com/Yurchishin/anylint/compare/eslint-config-v1.0.2...eslint-config-v1.0.3) (2023-09-25)
 
 ## [1.0.2](https://github.com/Yurchishin/anylint/compare/eslint-config-v0.4.2...eslint-config-v1.0.2) (2023-09-25)
