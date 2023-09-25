@@ -39,9 +39,7 @@
     "release": "release-it --ci --config ../../.release-it.js"
   },
   "dependencies": {
-    "@commitlint/cli": "17.6.5",
     "@commitlint/config-conventional": "17.6.5",
-    "@commitlint/prompt-cli": "17.6.5",
     "find-yarn-workspace-root": "2.0.0",
     "glob": "10.3.6",
     "read-pkg-up": "7.0.1"

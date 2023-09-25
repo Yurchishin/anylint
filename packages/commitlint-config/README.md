@@ -20,6 +20,12 @@ npm install @anylint/commitlint-config @commitlint/cli --save-dev
 
 ## Prompts
 
+To prompts install, run the following command:
+
+```bash
+npm install @commitlint/prompt-cli --save-dev
+```
+
 Add `commit` script to your `package.json`:
 
 ```json
