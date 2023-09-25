@@ -1,3 +1,9 @@
+## [1.0.3](https://github.com/Yurchishin/anylint/compare/commitlint-config-v1.0.2...commitlint-config-v1.0.3) (2023-09-25)
+
+### Bug Fixes
+
+- **commitlint-config:** fixed package description ([05b67ff](https://github.com/Yurchishin/anylint/commit/05b67ff25bf554a22ad8ca28d67ec506aa732f40))
+
 ## [1.0.2](https://github.com/Yurchishin/anylint/compare/commitlint-config-v0.4.1...commitlint-config-v1.0.2) (2023-09-25)
 
 ## [0.4.1](https://github.com/Yurchishin/anylint/compare/commitlint-config-v0.4.0...commitlint-config-v0.4.1) (2023-09-25)
