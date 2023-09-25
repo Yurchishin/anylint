@@ -1,6 +1,6 @@
-![AnyLint Logo](https://res.cloudinary.com/da0ggymug/image/upload/v1695653317/logo_full.25.svg)
-
 # @anylint/eslint-config
+
+## ![AnyLint Logo](https://res.cloudinary.com/da0ggymug/image/upload/v1695653317/logo_full.25.svg)
 
 **@anylint/eslint-config** is a versatile [ESLint](https://eslint.org) configuration package designed for JavaScript and TypeScript projects. It streamlines your development process by offering predefined ESLint rules and settings to maintain code quality and style consistency throughout your codebase.
 

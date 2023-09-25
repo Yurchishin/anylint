@@ -23,7 +23,7 @@ on:
 name: Publish package
 
 jobs:
-  install:
+  publish:
     name: Publish ${{inputs.package}} package
     runs-on: macos-latest
     permissions:

@@ -1,6 +1,6 @@
-![AnyLint Logo](https://res.cloudinary.com/da0ggymug/image/upload/v1695653317/logo_full.25.svg)
-
 # @anylint/commitlint-config
+
+## ![AnyLint Logo](https://res.cloudinary.com/da0ggymug/image/upload/v1695653317/logo_full.25.svg)
 
 **@anylint/commitlint-config** is a configuration package for [Commitlint](https://commitlint.js.org/) designed to enforce consistent and conventional commit messages within your projects. This standardization makes it easier to track and manage changes in your codebase.
 
