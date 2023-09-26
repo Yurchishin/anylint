@@ -1,3 +1,9 @@
+## [1.0.5](https://github.com/Yurchishin/anylint/compare/eslint-config-v1.0.4...eslint-config-v1.0.5) (2023-09-26)
+
+### Bug Fixes
+
+- **eslint-config:** removed damn rules ([aa97cf2](https://github.com/Yurchishin/anylint/commit/aa97cf254a9f3ba2c31ed484064dca518969e9da))
+
 ## [1.0.4](https://github.com/Yurchishin/anylint/compare/eslint-config-v1.0.3...eslint-config-v1.0.4) (2023-09-25)
 
 ### Bug Fixes
