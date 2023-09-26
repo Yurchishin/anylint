@@ -22,7 +22,7 @@ This repository serves as your gateway to configuration packages that streamline
 
 | Package                                                      | Description                                                             |
 | ------------------------------------------------------------ | ----------------------------------------------------------------------- |
-| [`@anylint/eslint-config`](./packages/eslint-config)         | ESLint configuration for JavaScript and TypeScript projects.            |
+| [`@anylint/eslint-config`](./packages/eslint-config)         | WIP: ESLint configuration for JavaScript and TypeScript projects.       |
 | [`@anylint/prettier-config`](./packages/prettier-config)     | Prettier configuration for JavaScript and TypeScript projects.          |
 | [`@anylint/commitlint-config`](./packages/commitlint-config) | Commitlint configuration with conventional preset and monorepo support. |
 

@@ -4,7 +4,7 @@
 
 **`@anylint/prettier-config`** is your go-to configuration package for [Prettier](https://prettier.io/), offering a standardized and opinionated Prettier setup for JavaScript and TypeScript projects. By incorporating this configuration, you can effortlessly maintain code formatting consistency throughout your codebase.
 
-## Key Features 🚀
+## Features 🚀
 
 - **Consistent Code Formatting**: Guarantee a uniform code formatting style, making your code more legible and easier to manage.
 

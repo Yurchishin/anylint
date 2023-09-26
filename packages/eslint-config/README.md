@@ -1,3 +1,5 @@
+# STATUS: WIP
+
 ![AnyLint Logo](https://res.cloudinary.com/da0ggymug/image/upload/v1695653317/logo_full.25.svg)
 
 # @anylint/eslint-config
