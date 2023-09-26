@@ -43,7 +43,7 @@ module.exports = {
         fixStyle: 'separate-type-imports',
       },
     ],
-    '@typescript-eslint/explicit-function-return-type': 'error',
+    '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/member-ordering': [
@@ -141,7 +141,7 @@ module.exports = {
             'protected-decorated-method',
           ],
           optionalityOrder: 'optional-first',
-          order: 'alphabetically-case-insensitive',
+          order: 'as-written',
         },
       },
     ],
@@ -150,18 +150,24 @@ module.exports = {
       'error',
       {
         selector: ['accessor', 'method', 'parameterProperty', 'property', 'function', 'parameter'],
-        format: ['camelCase'],
+        format: ['camelCase', 'PascalCase'],
         leadingUnderscore: 'allow',
         trailingUnderscore: 'forbid',
       },
       {
         selector: ['variable'],
-        format: ['camelCase', 'UPPER_CASE'],
+        format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
         leadingUnderscore: 'allow',
         trailingUnderscore: 'forbid',
       },
       {
-        selector: ['class', 'enum', 'enumMember', 'interface', 'typeAlias', 'typeParameter'],
+        selector: ['typeAlias'],
+        format: ['PascalCase'],
+        leadingUnderscore: 'allow',
+        trailingUnderscore: 'forbid',
+      },
+      {
+        selector: ['class', 'enum', 'enumMember', 'interface', 'typeParameter'],
         format: ['PascalCase'],
         leadingUnderscore: 'forbid',
         trailingUnderscore: 'forbid',
@@ -236,7 +242,7 @@ module.exports = {
     '@typescript-eslint/parameter-properties': [
       'error',
       {
-        prefer: 'parameter-property',
+        prefer: 'class-property',
       },
     ],
     '@typescript-eslint/prefer-as-const': 'error',
@@ -254,7 +260,7 @@ module.exports = {
     '@typescript-eslint/prefer-nullish-coalescing': 'error',
     '@typescript-eslint/prefer-optional-chain': 'error',
     '@typescript-eslint/prefer-readonly': 'error',
-    '@typescript-eslint/prefer-readonly-parameter-types': 'error',
+    '@typescript-eslint/prefer-readonly-parameter-types': 'off',
     '@typescript-eslint/prefer-reduce-type-parameter': 'error',
     '@typescript-eslint/prefer-regexp-exec': 'error',
     '@typescript-eslint/prefer-return-this-type': 'error',
@@ -288,17 +294,7 @@ module.exports = {
     '@typescript-eslint/strict-boolean-expressions': 'error',
     '@typescript-eslint/switch-exhaustiveness-check': 'error',
     '@typescript-eslint/triple-slash-reference': 'error',
-    '@typescript-eslint/typedef': [
-      'error',
-      {
-        arrayDestructuring: false,
-        arrowParameter: true,
-        memberVariableDeclaration: true,
-        objectDestructuring: false,
-        parameter: true,
-        propertyDeclaration: true,
-      },
-    ],
+    '@typescript-eslint/typedef': 'off',
     '@typescript-eslint/unbound-method': 'error',
     '@typescript-eslint/unified-signatures': 'error',
 

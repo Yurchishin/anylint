@@ -101,7 +101,7 @@ module.exports = {
     'unicorn/prefer-node-protocol': 'error',
     'unicorn/prefer-number-properties': 'error',
     'unicorn/prefer-switch': ['error', { minimumCases: 5 }],
-    'unicorn/prevent-abbreviations': 'error',
+    'unicorn/prevent-abbreviations': 'off',
     'unicorn/relative-url-style': 'error',
     'unicorn/text-encoding-identifier-case': 'error',
 

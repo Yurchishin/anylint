@@ -8,4 +8,7 @@ module.exports = {
     sourceType: 'module',
   },
   extends: ['plugin:regexp/recommended'],
+  rules: {
+    'regexp/strict': 'off',
+  },
 }
