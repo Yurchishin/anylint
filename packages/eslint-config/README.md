@@ -16,7 +16,7 @@ $ npm install @anylint/eslint-config eslint --save-dev
 
 **Edit `.eslintrc.json`**:
 
-```jsonc
+```json
 {
   "root": true,
   "overrides": [
@@ -39,7 +39,7 @@ $ npm install typescript --save-dev
 
 **Edit `.eslintrc.json`**:
 
-```jsonc
+```json
 {
   "root": true,
   "overrides": [
@@ -58,7 +58,7 @@ Edit `.eslintrc.json`:
 
 - React for Web + JavaScript
 
-```jsonc
+```json
 {
   "root": true,
   "overrides": [
@@ -79,7 +79,7 @@ Edit `.eslintrc.json`:
 
 - React for Web + TypeScript
 
-```jsonc
+```json
 {
   "root": true,
   "overrides": [
@@ -99,7 +99,7 @@ Edit `.eslintrc.json`:
 
 - React Native + JavaScript
 
-```jsonc
+```json
 {
   "root": true,
   "overrides": [
@@ -119,7 +119,7 @@ Edit `.eslintrc.json`:
 
 - React Native + TypeScript
 
-```jsonc
+```json
 {
   "root": true,
   "overrides": [
@@ -143,13 +143,13 @@ Edit `.eslintrc.json`:
 
 - Jest + JavaScript
 
-```jsonc
+```json
 {
   "root": true,
   "overrides": [
     {
       "files": ["*.test.js", "*.spec.js"],
-      "extends": ["@anylint/eslint-config/javascript", "@anylint/eslint-config/jest", "@anylint/eslint-config/tests"],
+      "extends": ["@anylint/eslint-config/jest", "@anylint/eslint-config/tests"],
       "rules": {}
     }
   ]
@@ -158,13 +158,13 @@ Edit `.eslintrc.json`:
 
 - Jest + TypeScript
 
-```jsonc
+```json
 {
   "root": true,
   "overrides": [
     {
       "files": ["*.test.ts", "*.spec.ts"],
-      "extends": ["@anylint/eslint-config/typescript", "@anylint/eslint-config/jest", "@anylint/eslint-config/tests"],
+      "extends": ["@anylint/eslint-config/jest", "@anylint/eslint-config/tests"],
       "rules": {}
     }
   ]
@@ -173,19 +173,18 @@ Edit `.eslintrc.json`:
 
 - Jest + React for Web + JavaScript
 
-```jsonc
+```json
 {
   "root": true,
   "overrides": [
     {
       "files": ["*.test.js", "*.spec.js"],
-      "extends": ["@anylint/eslint-config/javascript", "@anylint/eslint-config/jest", "@anylint/eslint-config/tests"],
+      "extends": ["@anylint/eslint-config/jest", "@anylint/eslint-config/tests"],
       "rules": {}
     },
     {
       "files": ["*.test.jsx", "*.spec.jsx"],
       "extends": [
-        "@anylint/eslint-config/javascript",
         "@anylint/eslint-config/react-web",
         "@anylint/eslint-config/testing-library-react",
         "@anylint/eslint-config/jest-web",
@@ -199,19 +198,18 @@ Edit `.eslintrc.json`:
 
 - Jest + React for Web + TypeScript
 
-```jsonc
+```json
 {
   "root": true,
   "overrides": [
     {
-      "files": ["*.test.js", "*.spec.js"],
-      "extends": ["@anylint/eslint-config/typescript", "@anylint/eslint-config/jest", "@anylint/eslint-config/tests"],
+      "files": ["*.test.ts", "*.spec.ts"],
+      "extends": ["@anylint/eslint-config/jest", "@anylint/eslint-config/tests"],
       "rules": {}
     },
     {
       "files": ["*.test.tsx", "*.spec.tsx"],
       "extends": [
-        "@anylint/eslint-config/typescript",
         "@anylint/eslint-config/react-web",
         "@anylint/eslint-config/testing-library-react",
         "@anylint/eslint-config/jest-web",
@@ -225,19 +223,18 @@ Edit `.eslintrc.json`:
 
 - Jest + React Native + JavaScript
 
-```jsonc
+```json
 {
   "root": true,
   "overrides": [
     {
       "files": ["*.test.js", "*.spec.js"],
-      "extends": ["@anylint/eslint-config/javascript", "@anylint/eslint-config/jest", "@anylint/eslint-config/tests"],
+      "extends": ["@anylint/eslint-config/jest", "@anylint/eslint-config/tests"],
       "rules": {}
     },
     {
       "files": ["*.test.jsx", "*.spec.jsx"],
       "extends": [
-        "@anylint/eslint-config/javascript",
         "@anylint/eslint-config/react-native",
         "@anylint/eslint-config/testing-library-react",
         "@anylint/eslint-config/jest-native",
@@ -251,19 +248,18 @@ Edit `.eslintrc.json`:
 
 - Jest + React Native + TypeScript
 
-```jsonc
+```json
 {
   "root": true,
   "overrides": [
     {
       "files": ["*.test.ts", "*.spec.ts"],
-      "extends": ["@anylint/eslint-config/typescript", "@anylint/eslint-config/jest", "@anylint/eslint-config/tests"],
+      "extends": ["@anylint/eslint-config/jest", "@anylint/eslint-config/tests"],
       "rules": {}
     },
     {
       "files": ["*.test.tsx", "*.spec.tsx"],
       "extends": [
-        "@anylint/eslint-config/typescript",
         "@anylint/eslint-config/react-native",
         "@anylint/eslint-config/testing-library-react",
         "@anylint/eslint-config/jest-native",
