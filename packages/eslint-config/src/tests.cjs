@@ -3,5 +3,6 @@ module.exports = {
     '@typescript-eslint/no-confusing-void-expression': 'off',
     'id-length': 'off',
     'unicorn/better-regexp': 'off',
+    'max-statements': 'off',
   },
 }

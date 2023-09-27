@@ -149,7 +149,7 @@ module.exports = {
     '@typescript-eslint/naming-convention': [
       'error',
       {
-        selector: ['accessor', 'method', 'parameterProperty', 'property', 'function', 'parameter'],
+        selector: ['accessor', 'method', 'parameterProperty', 'classProperty', 'typeProperty', 'function', 'parameter'],
         format: ['camelCase', 'PascalCase'],
         leadingUnderscore: 'allow',
         trailingUnderscore: 'forbid',

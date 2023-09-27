@@ -14,5 +14,7 @@
   "proseWrap": "preserve",
   "htmlWhitespaceSensitivity": "strict",
   "endOfLine": "lf",
-  "singleAttributePerLine": true
+  "singleAttributePerLine": true,
+  "rangeStart": 0,
+  "rangeEnd": 120
 }
