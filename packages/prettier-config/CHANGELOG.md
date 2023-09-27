@@ -1,3 +1,12 @@
+
+
+## [1.0.7](https://github.com/Yurchishin/anylint/compare/prettier-config-v1.0.6...prettier-config-v1.0.7) (2023-09-27)
+
+
+### Bug Fixes
+
+* **eslint-config:** fixed tests rules ([5b83bfb](https://github.com/Yurchishin/anylint/commit/5b83bfb551e2d4eeaa76ebb53fff01ad37351409))
+
 ## [1.0.6](https://github.com/Yurchishin/anylint/compare/prettier-config-v1.0.5...prettier-config-v1.0.6) (2023-09-26)
 
 ## [1.0.5](https://github.com/Yurchishin/anylint/compare/prettier-config-v1.0.4...prettier-config-v1.0.5) (2023-09-26)
