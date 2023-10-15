@@ -1,5 +1,12 @@
 
 
+## [1.0.8](https://github.com/Yurchishin/anylint/compare/eslint-config-v1.0.7...eslint-config-v1.0.8) (2023-10-15)
+
+
+### Bug Fixes
+
+* **eslint-config:** remove react display-name rule options ([73b734d](https://github.com/Yurchishin/anylint/commit/73b734d89b8f18334c2b7c46baa6ad491791b080))
+
 ## [1.0.7](https://github.com/Yurchishin/anylint/compare/eslint-config-v1.0.6...eslint-config-v1.0.7) (2023-09-27)
 
 
