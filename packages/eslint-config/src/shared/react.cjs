@@ -25,13 +25,7 @@ module.exports = {
     'react/button-has-type': 'error',
     'react/default-props-match-prop-types': 'error',
     'react/destructuring-assignment': ['error', 'always'],
-    'react/display-name': [
-      'error',
-      {
-        ignoreTranspilerName: false,
-        checkContextObjects: false, // Maybe true?
-      },
-    ],
+    'react/display-name': 'error',
     'react/forbid-component-props': 'off',
     'react/forbid-dom-props': 'off',
     'react/forbid-elements': 'off',
